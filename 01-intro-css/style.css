@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    border-radius: 30px;
+}
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+.color-tomato{
+    color:tomato;
+}
+
+.color-blue{
+    color: rgba(6, 84, 210, 0.37);
+}
+
+#destacados{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.form-registro .datos-persona{
+    display: inline-block;
+}
+
+.form-registro .datos-persona .input-nombre{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.form-registro .datos-persona .input-nombre:focus{
+    border: 2px solid tomato;
+    background-color: aquamarine;
+}
+
+p{
+    display: inline-block;
+}
+
+button{
+    display: inline-block;
+}
+
+button:hover{
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    transition-duration: .5s;
+}
