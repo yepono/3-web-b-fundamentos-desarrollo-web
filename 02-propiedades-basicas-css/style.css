@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+
+.titulo{
+    font-family: "Uncial Antiqua", sytem-ui;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+/* p{
+    background-color: #373737;
+    text-align: center;
+} */
+
+.btn-box{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 15px 0 15px 0;
+    border: none;
+}
+
+button:hover{
+    background-color: aqua;
+    color: #da0b0b;
+    border: none;
+    padding: 30px 60px;
+    transition-duration: .5s;
+}
+
+#portada{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#portada img{
+    border: 25px solid orange;
+    padding: 10px;
+    background-color: rgb(215, 220, 250);
+    width: 200px;
+}
+
+/* Card Styles */
+
+.user-card{
+    width: 300px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.user-card-info img{
+    border-radius: 50%;
+}
+
+.btn-link{
+    display: block;
+    background: greenyellow;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-radius: 10px;
+}
