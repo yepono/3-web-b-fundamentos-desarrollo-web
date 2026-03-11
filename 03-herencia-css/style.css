@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#miParrafo{color: blueviolet}
+.p{color: orange;}
+p{color: greenyellow !important;}
+
+.titulo {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
