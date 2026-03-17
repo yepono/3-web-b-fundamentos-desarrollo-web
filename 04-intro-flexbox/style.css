@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10px;
+
+    background-color: blueviolet;
+    border: 2px solid black;
+    width: 600px;
+    height: 500px;
+}
+
+.box {
+    width: 40%;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Estilos header */
+
+header {
+    display: flex;
+    background-color: rgb(89, 99, 95);
+    padding: 20px;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+/*     gap: 20px;*/
+}
+
+.main-content {
+    width: 70%;
+    height: 320px;
+    background-color: cadetblue;
+}
+
+.statistics {
+    width: 30%;
+    height: 320px;
+    background-color: aquamarine;
+}
+
+/* Estilos de ejercicio de practica */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.card-classification {
+    height: 40px;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.statistics-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: black;
+    width: 150px;
+}
+
+.main-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
