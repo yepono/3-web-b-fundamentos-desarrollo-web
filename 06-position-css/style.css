@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.navbar {
+    background-color: #62cae4;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    font-family: "Frijole";
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.navbar a:hover {
+    background-color: #24a3b4;
+
+    transition: 0.3s;
+}
+
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    width: 700px;
+    height: 400px;
+    margin: 30px auto;
+    border: 10px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 2px #cbcbcb;
+}
+
+.btn-play {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Frijole", system-ui;
+}
+
+.bird {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    transform: rotateZ(45deg);
+}
+
+.bird-1 {
+    background-color: rgb(255, 224, 51);
+    left: 30%;
+    top: 60%;
+}
+
+.bird-2 {
+    background-color: rgb(12, 161, 254);
+    right: 3%;
+    top: 30%;
+}
+
+.bg-game {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.equis {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.game-title {
+    margin-top: 7%;
+    color: #2d2d2e;
+    font-family: "Frijole", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+}
+
+.btn-config-game {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    padding: 0 20px;
+    gap: 15px;
+}
+
+.btn-world {
+    margin-left: auto;
+}
+
+.btn-config-game button {
+    font-size: 2rem;
+    border: none;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.cookie-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #61e945;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookie-footer a {
+    color: rgb(18, 51, 241)
+}
+
+.cookie-footer button {
+    background-color: #4caf50;
+    /* Verde para el botón */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.cookie-footer button:hover {
+    background-color: #45a049;
+}
