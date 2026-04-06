@@ -54,7 +54,9 @@
     margin: auto;
     border-radius: 25px;
     cursor: pointer;
-    font-family: "Frijole", system-ui;
+    font-family: "Handjet", system-ui;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .bird {
@@ -66,8 +68,8 @@
 
 .bird-1 {
     background-color: rgb(255, 224, 51);
-    left: 30%;
-    top: 60%;
+    left: 10%;
+    top: 35%;
 }
 
 .bird-2 {
@@ -92,12 +94,15 @@
 }
 
 .game-title {
-    margin-top: 7%;
-    color: #2d2d2e;
-    font-family: "Frijole", system-ui;
-    font-weight: 400;
+    margin-top: 5%;
+    color: #ffffff;
+    font-family: "Handjet", sans-serif;
+    font-weight: 700;
     font-style: normal;
-    font-size: xxx-large;
+    font-variation-settings:
+        "ELGR" 1,
+        "ELSH" 2;
+    font-size: 5rem;
 }
 
 .btn-config-game {
